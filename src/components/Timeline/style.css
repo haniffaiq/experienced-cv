@@ -1,0 +1,18 @@
+.card-component {
+    background-color: #0F4C75;
+}
+
+.line-component {
+    background-color: #0F4C75;
+}
+
+.card-component:hover {
+    transform: scale(1.05);
+    /* Menambahkan efek membesar saat card dihover */
+    transition: transform 0.3s ease;
+    /* Animasi transisi */
+    background-color: #BBE1FA;
+    color: #0F4C75;
+    /* border-width: 2px;
+    border-color: #0F4C75; */
+}
