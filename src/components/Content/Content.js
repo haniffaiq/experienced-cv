@@ -54,7 +54,7 @@ const Content = () => {
                         Wow, I feel honored that you want to know about me. <br />Come on, I'll help you get to know me better.</p>
                     <img src={profile} alt="Profile" className="w-1/4 h-1/4 mr-2 rounded-full" />
                 </div>
-                <div className="container mx-auto flex items-center justify-between my-10">
+                <div className="container mx-auto flex items-center justify-center my-10">
                     <p className=''>"Even a small change, it's a step forward."</p>
                 </div>
                 <div className="container mx-auto flex items-center justify-between my-10">

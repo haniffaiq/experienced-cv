@@ -33,7 +33,10 @@ const Timeline = ({ experiences }) => {
                                 <div className="h-full w-1 line-component"></div>
                                 <div className="absolute w-4 h-4 rounded-full line-component z-10 text-white text-center"></div>
                             </div>
-                            <div className="col-span-4 w-full h-full"></div>
+                            
+                            <div className="col-span-4 w-full h-full">
+                                
+                            </div>
                         </>
                     ) : (
                         <>
@@ -57,14 +60,14 @@ const Timeline = ({ experiences }) => {
             <div className="col-span-9 flex justify-center mt-4">
                 {showAll ? (
                     <button
-                        className="card-component px-4 py-2 rounded-xl"
+                        className="card-component px-20 py-2 rounded-2xl"
                         onClick={handleShowLess}
                     >
                         Show Less
                     </button>
                 ) : (
                     <button
-                        className="card-component px-4 py-2 rounded-xl"
+                        className="card-component px-20 py-2 rounded-2xl "
                         onClick={handleShowMore}
                     >
                         Show More
