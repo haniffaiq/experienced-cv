@@ -23,7 +23,7 @@ const Timeline = ({ experiences }) => {
                         <>
                             <div className="col-span-4 w-auto h-auto">
                                 <div className="w-full h-full card-component rounded-2xl p-2 md:pl-4">
-                                    <h1 className="text-xl font-medium py-1">{experience.company}</h1>
+                                    <h1 className="text-xl font-bold py-1">{experience.company}</h1>
                                     <p className="text-md font-medium py-1">{experience.title}</p>
                                     <p className="sm:text-sm text-xs">{experience.description}</p>
                                     <h1 className="sm:text-sm text-xs">{experience.year}</h1>
@@ -47,7 +47,7 @@ const Timeline = ({ experiences }) => {
                             </div>
                             <div className="col-span-4 w-auto h-auto">
                                 <div className="w-full h-full card-component rounded-2xl p-2 md:pl-4">
-                                    <h1 className="text-xl font-medium py-1">{experience.company}</h1>
+                                    <h1 className="text-xl font-bold py-1">{experience.company}</h1>
                                     <p className="text-md font-medium py-1">{experience.title}</p>
                                     <p className="sm:text-sm text-xs">{experience.description}</p>
                                     <h1 className="sm:text-sm text-xs">{experience.year}</h1>
