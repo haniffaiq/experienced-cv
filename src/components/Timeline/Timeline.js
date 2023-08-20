@@ -22,7 +22,7 @@ const Timeline = ({ experiences }) => {
                     {index % 2 === 0 ? (
                         <>
                             <div className="col-span-4 w-auto h-auto">
-                                <div className="w-full h-full card-component rounded-2xl p-2 md:pl-4">
+                                <div className="w-full h-full card-component rounded-2xl p-2 md:pl-4 hover:shadow-2xl hover:shadow-black">
                                     <h1 className="text-xl font-bold py-1">{experience.company}</h1>
                                     <p className="text-md font-medium py-1">{experience.title}</p>
                                     <p className="sm:text-sm text-xs">{experience.description}</p>
@@ -46,7 +46,7 @@ const Timeline = ({ experiences }) => {
                                 <div className="absolute w-4 h-4 rounded-full line-component z-10 text-center"></div>
                             </div>
                             <div className="col-span-4 w-auto h-auto">
-                                <div className="w-full h-full card-component rounded-2xl p-2 md:pl-4">
+                                <div className="w-full h-full card-component rounded-2xl p-2 md:pl-4 hover:shadow-2xl hover:shadow-black" >
                                     <h1 className="text-xl font-bold py-1">{experience.company}</h1>
                                     <p className="text-md font-medium py-1">{experience.title}</p>
                                     <p className="sm:text-sm text-xs">{experience.description}</p>
@@ -60,14 +60,14 @@ const Timeline = ({ experiences }) => {
             <div className="col-span-9 flex justify-center mt-4">
                 {showAll ? (
                     <button
-                        className="card-component px-20 py-2 rounded-2xl"
+                        className="card-component px-20 py-2 rounded-2xl hover:shadow-2xl hover:shadow-black"
                         onClick={handleShowLess}
                     >
                         Show Less
                     </button>
                 ) : (
                     <button
-                        className="card-component px-20 py-2 rounded-2xl "
+                        className="card-component px-20 py-2 rounded-2xl hover:shadow-2xl hover:shadow-black"
                         onClick={handleShowMore}
                     >
                         Show More

@@ -60,7 +60,7 @@ const Content = () => {
                             Wow, I feel honored that you want to know about me. Come on, I'll help you get to know me better.</p>
                     </div>
                     <div className="col-span-1 flex justify-center">
-                        <img src={profile} alt="Profile" className="w-1/2 h-1/2 mr-2 rounded-full" />
+                        <img src={profile} alt="Profile" className="w-1/2 h-1/2 mr-2 rounded-full hover:shadow-2xl hover:shadow-black " />
                     </div>
                 </div>
                 <div className="container mx-auto flex items-center justify-center my-10">
